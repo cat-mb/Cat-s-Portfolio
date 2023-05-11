@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/e0b58014cf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <title>Cat's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Shiba</h1>
+    </section>
+
+    <!------ about us content ------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Shiba</h1>
+                <p2>I have always had a passion for supporting those who struggle with mental health, 
+                    I realized I could aid those suffering from anxiety on a greater scale. I want to build 
+                    an app that focuses on tackling anxiety symptoms before they spiral out of control. My goal for the 
+                    app is to make sure that those affected by anxiety, especially those who are younger, would never have to 
+                    suffer through the symptoms of a panic attack alone again. I began to plan each of the steps I need to take 
+                    to make my goal a reality. I searched up tutorials on YouTube and found coding tools which I would then use to 
+                    expand my knowledge in programming languages such as Swift. I also want to make this app feel safe for people with anxiety 
+                    disorders; in fact, I based the app mascot off of my Shiba-Inu plushie because I sought comfort from this giant 
+                    plushie since middle school. I figured my Shiba-Inu plushie could bring that same comfort to others suffering from anxiety as well. </p2>
+                <a href="projects.html" class="purplehero-btn purple-btn">Return to My Projects</a>
+            </div>
+            <div class="about-col">
+                <img src="images/ShibaMain.png">
+            </div>
+        </div>
+        
+            
+    </section>
+
+<!---Footer--->
+<section class="footer"> 
+    <h4b>Thanks for stopping by!</h4b>
+
+    <div class="icons">
+        <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/catalina-mb/"></i>
+        <i class="fa-brands fa-github" href="https://github.com/cat-mb/Cat-s-Portfolio"></i>
+    </div>
+    <h2b>Made with <i class="fa fa-heart-o"></i> by Catalina Barnes</h2b>
+</section>
+
+
+
+ <!---JavaScript for Toggle Menu--->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
+    

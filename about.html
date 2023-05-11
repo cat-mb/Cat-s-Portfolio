@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/e0b58014cf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <title>Cat's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Me</h1>
+    </section>
+
+    <!------ about us content ------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Meet the creator!</h1>
+                <p>Hi! My name is Catalina, but most call me by "Cat." Originally from Orange County, CA, 
+                I moved to Honolulu, HI to attend high school there. Now, I am an undergraduate attenting 
+                Loyola Marymount University as a Computer Science major and Psychology minor. I enjoy various activites:
+                from the adrenaline-spiking ones like surfing and skating, creative ones like ceramics, graphic design and writing,
+                to relaxing ones like playing video games, practicing guitar, taking walks and finding new 
+                recipes to cook. I am always on the lookout to pick up new skills! Even though coding is quite new
+                to me, I have learned a lot through help from classes, peers and online tutorials. I am motivated to gain the skills
+                to one day craft my ideas into reality. As someone with Generalized Anxiety Disorder, my main goal is to combine the 
+                fundamentals of technology and psychology to create something which can easily provide care for those suffering from 
+                mild to severe anxiety symptoms. Especially those who are unable to seek out immediate mental health treatment. 
+                That is the purpose of the start of "catCreations." Hopefully, I will be able to extend this technology to ease the symptoms
+                of those suffering from other various mental health conditions.</p>
+                <a href="projects.html" class="blackhero-btn black-btn">Check out my creations!</a>
+            </div>
+            <div class="about-col">
+                <img src="images/portrait.png">
+            </div>
+        </div>
+        
+            
+    </section>
+
+<!---Footer--->
+<section class="footer"> 
+    <h4b>Thanks for stopping by!</h4b>
+
+    <div class="icons">
+        <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/catalina-mb/"></i>
+        <i class="fa-brands fa-github" href="https://github.com/cat-mb/Cat-s-Portfolio"></i>
+    </div>
+    <h2b>Made with <i class="fa fa-heart-o"></i> by Catalina Barnes</h2b>
+</section>
+
+
+ <!---JavaScript for Toggle Menu--->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
+    

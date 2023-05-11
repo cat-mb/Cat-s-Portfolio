@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/e0b58014cf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <title>Cat's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>LMU Summer Undergraduate Research Program</h1>
+    </section>
+
+    <!------ about us content ------->
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>My SURP 2023 Experience:</h1>
+                <p>This is in progress.</p>
+                <a href="projects.html" class="hero-btn blue-btn">Check out my creations!</a>
+            </div>
+            <div class="about-col">
+                <img src="images/lmu.png">
+            </div>
+        </div>
+        
+            
+    </section>
+
+<!---Footer--->
+<section class="footer"> 
+    <h4b>Thanks for stopping by!</h4b>
+
+    <div class="icons">
+        <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/catalina-mb/"></i>
+        <i class="fa-brands fa-github" href="https://github.com/cat-mb/Cat-s-Portfolio"></i>
+    </div>
+    <h2b>Made with <i class="fa fa-heart-o"></i> by Catalina Barnes</h2b>
+</section>
+
+
+
+ <!---JavaScript for Toggle Menu--->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
+    

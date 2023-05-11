@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/e0b58014cf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width", initial-scale="1.0">
+    <title>Cat's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Cat's Creations</h1>
+        <p>Welcome to the innards of my mind.
+        </p>
+        <a href="about.html" class="hero-btn">More about me!</a>
+    </div>
+
+
+    </section>
+    <!--
+    <section class="projects">
+        <h1>Projects!</h1>
+        <p>Some description</p>
+
+        <div class="row">
+            <div class="projects-col">
+                <h3>Shiba</h3>
+                <p>Some text here</p>
+            </div>
+            <div class="projects-col">
+                <h3>MentalHelp</h3>
+                <p>Some text here</p>
+            </div>
+            <div class="projects-col">
+                <h3>SnakeGame</h3>
+                <p>Some text here</p>
+            </div>
+
+    </section>---->
+
+    <!------FACILITIES
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>blah blah blah</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/catcry.png">
+                <h3>NAURRRRRRRR</h3>
+                <p>meow meow meow</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/catcry.png">
+                <h3>SOBBING</h3>
+                <p>meow meow meow</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/catcry.png">
+                <h3>AW POO</h3>
+                <p>meow meow meow</p>
+            </div>   
+        </div>
+
+    </section>----->
+
+<!---Contact Me--->
+<section class="cta">
+    <h1>Catalina Barnes</h1>
+    <a href="contact.html" class="blackhero-btn">Click here for Contact Info!</a>
+</section>
+
+<!---Footer--->
+<section class="footer"> 
+    <h4b>Thanks for stopping by!</h4b>
+
+    <div class="icons">
+        <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/catalina-mb/"></i>
+        <i class="fa-brands fa-github" href="https://github.com/cat-mb/Cat-s-Portfolio"></i>
+    </div>
+    <h2b>Made with <i class="fa fa-heart-o"></i> by Catalina Barnes</h2b>
+</section>
+
+
+
+ <!---JavaScript for Toggle Menu--->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
+    
