@@ -7,7 +7,7 @@
 .header{
     min-height:100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.4)),url(images/tempbg.png)
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.4)),url(images/blueocean.png)
     ;
     background-position: center;
     background-size: cover;
@@ -345,7 +345,7 @@ h2b{
     padding: 18px 0;
 }
 .fa-heart-o{
-    color: plum;
+    color: cornflowerblue;
     padding: 0px;
 }
 
@@ -354,7 +354,7 @@ h2b{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/tempbg.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/blueocean.png);
     background-position: center;
     background-size: cover;
     text-align: center;
